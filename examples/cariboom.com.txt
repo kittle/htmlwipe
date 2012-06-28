@@ -1,0 +1,2039 @@
+Traverse: detected 11 structures:
+
+[[<Element li at 0x10e4eb350>,
+  <Element li at 0x10e4ebc50>,
+  <Element li at 0x10e4eb950>,
+  <Element li at 0x10e4eb770>],
+ [<Element li at 0x10e4ebfb0>,
+  <Element li at 0x10e4eb110>,
+  <Element li at 0x10e4eb4d0>,
+  <Element li at 0x10e4ebb90>],
+ [<Element li at 0x10e4eb6b0>,
+  <Element li at 0x10e4eb890>,
+  <Element li at 0x10e4eba70>,
+  <Element li at 0x10e4eb590>],
+ [<Element li at 0x10e4eb710>,
+  <Element li at 0x10e4ebad0>,
+  <Element li at 0x10e4eb9b0>,
+  <Element li at 0x10e4eb530>],
+ [<Element li at 0x10e4ebcb0>,
+  <Element li at 0x10e4eb050>,
+  <Element li at 0x10e4eb650>,
+  <Element li at 0x10e4eb8f0>],
+ [<Element li at 0x10e4ebef0>,
+  <Element li at 0x10e4ebd70>,
+  <Element li at 0x10e4eb170>,
+  <Element li at 0x10e4ebd10>],
+ [<Element li at 0x10e4eb290>,
+  <Element li at 0x10e4eb0b0>,
+  <Element li at 0x10e4ebe90>,
+  <Element li at 0x10e4eb2f0>],
+ [<Element li at 0x10e4eb470>,
+  <Element li at 0x10e4ebf50>,
+  <Element li at 0x10e4ebb30>,
+  <Element li at 0x10e4eba10>],
+ [<Element li at 0x10e4eb1d0>,
+  <Element li at 0x10e4eb410>,
+  <Element li at 0x10e555a10>,
+  <Element li at 0x10e5554d0>],
+ [<Element li at 0x10e555830>,
+  <Element li at 0x10e5556b0>,
+  <Element li at 0x10e555050>,
+  <Element li at 0x10e555470>],
+ [<Element ol at 0x10e4dee30>,
+  <Element ol at 0x10e4deef0>,
+  <Element ol at 0x10e4dedd0>,
+  <Element ol at 0x10e4eb3b0>,
+  <Element ol at 0x10e4eb7d0>,
+  <Element ol at 0x10e4ebe30>,
+  <Element ol at 0x10e4ebdd0>,
+  <Element ol at 0x10e4ebbf0>,
+  <Element ol at 0x10e4eb230>,
+  <Element ol at 0x10e4eb830>]]
+
+Detailed:
+====================
+NOT Suggested: 4 traversed structure VS 40 matched by xpath. calculated XPATH:  /html[@xmlns='http://www.w3.org/1999/xhtml']/body/div[@id='global']/div[@id='contour']/div[@id='contenu']/div[@class='category-products']/ol[@class='products-grid category category-products-list']/li[@class='item']
+---------- <Element li at 0x10e4eb350>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo ">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -60
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/coton-huile-vert.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/1/1/114932d120080626170149.jpg" width="185" height="185" alt="Coton huilé Vert 3XL">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_31663').style.display = 'block'" onmouseout="document.getElementById('im_prod_31663').style.display = 'none'">
+     <img class="img_hover" style="" id="im_prod_31663" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/1/1/114932d120080626170149.jpg" name="im_prod_31663">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/coton-huile-vert.html"> Coton huilé Vert 3XL
+   <div class="marque">
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 70€
+     <div class="prix_vente"> 27,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="out">Indisponible</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4ebc50>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+   <span title="http://www.cariboom.com/waxon.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/v/e/vest_carib.png" width="185" height="185" alt="Waxon">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_33331').style.display = 'block'" onmouseout="document.getElementById('im_prod_33331').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_33331" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/v/e/vest_carib.png" name="im_prod_33331">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/waxon.html"> Waxon
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 49,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/waxon.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb950>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Best-seller orange">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -34
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/rockveste.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/7/379-100-800x800.jpg" width="185" height="185" alt="Rockveste">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_22042').style.display = 'block'" onmouseout="document.getElementById('im_prod_22042').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_22042" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/7/379-100-800x800.jpg" name="im_prod_22042">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/rockveste.html"> Rockveste
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 89€
+     <div class="prix_vente"> 58,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/rockveste.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb770>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -31
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/softap.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/7/371-96-800x800.jpg" width="185" height="185" alt="Softap">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_23364').style.display = 'block'" onmouseout="document.getElementById('im_prod_23364').style.display = 'none'">
+     <img class="img_hover" style="left:20px" id="im_prod_23364" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/7/371-96-800x800.jpg" name="im_prod_23364">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/softap.html"> Softap
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 99€
+     <div class="prix_vente"> 68,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/softap.html'">Voir ce produit</button>
+                                                                                                </div>
+
+====================
+NOT Suggested: 4 traversed structure VS 40 matched by xpath. calculated XPATH:  /html[@xmlns='http://www.w3.org/1999/xhtml']/body/div[@id='global']/div[@id='contour']/div[@id='contenu']/div[@class='category-products']/ol[@class='products-grid category category-products-list']/li[@class='item']
+---------- <Element li at 0x10e4ebfb0>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+   <span title="http://www.cariboom.com/veste-greenville.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/5/1/5121_d1.jpg" width="185" height="185" alt=" Greenville">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_33206').style.display = 'block'" onmouseout="document.getElementById('im_prod_33206').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_33206" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/5/1/5121_d1.jpg" name="im_prod_33206">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/veste-greenville.html"> Greenville
+   <div class="marque"> Deerhunter
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 68,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-greenville.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb110>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new ">&nbsp;</div>
+     <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_new.png">
+   <span title="http://www.cariboom.com/souchet.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/2/1/214700-souchet.jpg" width="185" height="185" alt="Souchet">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_56123').style.display = 'block'" onmouseout="document.getElementById('im_prod_56123').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_56123" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/2/1/214700-souchet.jpg" name="im_prod_56123">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/souchet.html"> Souchet
+   <div class="marque"> LMA
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 69,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/souchet.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb4d0>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Prix Canon rouge">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -59
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/cassidy.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/1/3100-1860-800x800.jpg" width="185" height="185" alt="Cassidy">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_24802').style.display = 'block'" onmouseout="document.getElementById('im_prod_24802').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_24802" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/1/3100-1860-800x800.jpg" name="im_prod_24802">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/cassidy.html"> Cassidy
+   <div class="marque"> Club Interchasse
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 249€
+     <div class="prix_vente"> 99,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/cassidy.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4ebb90>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -33
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/super-traqueur-g7-orange.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/6/1/6152_d1.jpg" width="185" height="185" alt="Super Traqueur G7 Orange">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_28077').style.display = 'block'" onmouseout="document.getElementById('im_prod_28077').style.display = 'none'">
+     <img class="img_hover" style="left:20px" id="im_prod_28077" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/6/1/6152_d1.jpg" name="im_prod_28077">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/super-traqueur-g7-orange.html"> Super Traqueur G7 Orange
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 150€
+     <div class="prix_vente"> 99,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/super-traqueur-g7-orange.html'">Voir ce produit</button>
+                                                                                                </div>
+
+====================
+NOT Suggested: 4 traversed structure VS 40 matched by xpath. calculated XPATH:  /html[@xmlns='http://www.w3.org/1999/xhtml']/body/div[@id='global']/div[@id='contour']/div[@id='contenu']/div[@class='category-products']/ol[@class='products-grid category category-products-list']/li[@class='item']
+---------- <Element li at 0x10e4eb6b0>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+   <span title="http://www.cariboom.com/clermont.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/c/l/clermont.png" width="185" height="185" alt="Clermont">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_37053').style.display = 'block'" onmouseout="document.getElementById('im_prod_37053').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_37053" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/c/l/clermont.png" name="im_prod_37053">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/clermont.html"> Clermont
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 99,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/clermont.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb890>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+   <span title="http://www.cariboom.com/irlande.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/8/6/8693-8189-800x800.jpg" width="185" height="185" alt="Irlande">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_53761').style.display = 'block'" onmouseout="document.getElementById('im_prod_53761').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_53761" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/8/6/8693-8189-800x800.jpg" name="im_prod_53761">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/irlande.html"> Irlande
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 99,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/irlande.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eba70>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new ">&nbsp;</div>
+     <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_new.png">
+   <span title="http://www.cariboom.com/veste-neville-kid.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/v/e/veste-chasse-neville-seeland-chapuis.jpg" width="185" height="185" alt="Veste Neville kid">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_56636').style.display = 'block'" onmouseout="document.getElementById('im_prod_56636').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_56636" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/v/e/veste-chasse-neville-seeland-chapuis.jpg" name="im_prod_56636">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/veste-neville-kid.html"> Veste Neville kid
+   <div class="marque"> Seeland
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 109,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-neville-kid.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb590>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new ">&nbsp;</div>
+     <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_new.png">
+   <span title="http://www.cariboom.com/kerguelen.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/2/0/200495_-_kerguelen.jpg" width="185" height="185" alt="Kerguelen">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_56130').style.display = 'block'" onmouseout="document.getElementById('im_prod_56130').style.display = 'none'">
+     <img class="img_hover" style="left:20px" id="im_prod_56130" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/2/0/200495_-_kerguelen.jpg" name="im_prod_56130">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/kerguelen.html"> Kerguelen
+   <div class="marque"> LMA
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 109,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/kerguelen.html'">Voir ce produit</button>
+                                                                                                </div>
+
+====================
+NOT Suggested: 4 traversed structure VS 40 matched by xpath. calculated XPATH:  /html[@xmlns='http://www.w3.org/1999/xhtml']/body/div[@id='global']/div[@id='contour']/div[@id='contenu']/div[@class='category-products']/ol[@class='products-grid category category-products-list']/li[@class='item']
+---------- <Element li at 0x10e4eb710>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo ">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -30
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/veste-25th-anniversaire-deerhunter.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/6/0/6083-5326-800x800.jpg" width="185" height="185" alt="Veste 25th Anniversaire Deerhunter">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_26949').style.display = 'block'" onmouseout="document.getElementById('im_prod_26949').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_26949" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/6/0/6083-5326-800x800.jpg" name="im_prod_26949">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/veste-25th-anniversaire-deerhunter.html"> Veste 25th Anniversaire Deerhunter
+   <div class="marque"> Deerhunter
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 160€
+     <div class="prix_vente"> 112,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-25th-anniversaire-deerhunter.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4ebad0>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Déstockage rouge">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -50
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/taillis-camo-at.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3462-2275-800x800.jpg" width="185" height="185" alt="Taillis Camo AT">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_23979').style.display = 'block'" onmouseout="document.getElementById('im_prod_23979').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_23979" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3462-2275-800x800.jpg" name="im_prod_23979">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/taillis-camo-at.html"> Taillis Camo AT
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 230€
+     <div class="prix_vente"> 115,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/taillis-camo-at.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb9b0>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Nouveauté vert">&nbsp;</div>
+   <span title="http://www.cariboom.com/super-traq-light-g7.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/s/u/super-traq-light-g7-veste.png" width="185" height="185" alt="Super Traq Light G7 ">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_31754').style.display = 'block'" onmouseout="document.getElementById('im_prod_31754').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_31754" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/s/u/super-traq-light-g7-veste.png" name="im_prod_31754">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/super-traq-light-g7.html"> Super Traq Light G7
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 119,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/super-traq-light-g7.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb530>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Nouveauté vert">&nbsp;</div>
+   <span title="http://www.cariboom.com/super-epine.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/s/u/super-_pine-veste.png" width="185" height="185" alt="Super Epine">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_31872').style.display = 'block'" onmouseout="document.getElementById('im_prod_31872').style.display = 'none'">
+     <img class="img_hover" style="left:20px" id="im_prod_31872" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/s/u/super-_pine-veste.png" name="im_prod_31872">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/super-epine.html"> Super Epine
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 119,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/super-epine.html'">Voir ce produit</button>
+                                                                                                </div>
+
+====================
+NOT Suggested: 4 traversed structure VS 40 matched by xpath. calculated XPATH:  /html[@xmlns='http://www.w3.org/1999/xhtml']/body/div[@id='global']/div[@id='contour']/div[@id='contenu']/div[@class='category-products']/ol[@class='products-grid category category-products-list']/li[@class='item']
+---------- <Element li at 0x10e4ebcb0>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Nouveauté vert">&nbsp;</div>
+   <span title="http://www.cariboom.com/veste-chambord.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/c/h/chambord-jacket-col-ouvert-.png" width="185" height="185" alt="Veste Chambord">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_32005').style.display = 'block'" onmouseout="document.getElementById('im_prod_32005').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_32005" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/c/h/chambord-jacket-col-ouvert-.png" name="im_prod_32005">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/veste-chambord.html"> Veste Chambord
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 119,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-chambord.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb050>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Nouveauté vert">&nbsp;</div>
+   <span title="http://www.cariboom.com/veste-berry.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/b/e/berry-sans-capuche1.png" width="185" height="185" alt=" Berry">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_32882').style.display = 'block'" onmouseout="document.getElementById('im_prod_32882').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_32882" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/b/e/berry-sans-capuche1.png" name="im_prod_32882">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/veste-berry.html"> Berry
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 119,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-berry.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb650>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo ">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -23
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/targit-olive.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/6/7/6759-6007-800x800.jpg" width="185" height="185" alt="Targit Olive">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_26662').style.display = 'block'" onmouseout="document.getElementById('im_prod_26662').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_26662" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/6/7/6759-6007-800x800.jpg" name="im_prod_26662">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/targit-olive.html"> Targit Olive
+   <div class="marque"> Deerhunter
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 167€
+     <div class="prix_vente"> 127,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/targit-olive.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb8f0>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo ">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -22
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/finnlight.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/5/9/5968-5093-800x800.jpg" width="185" height="185" alt="Finnlight">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_24609').style.display = 'block'" onmouseout="document.getElementById('im_prod_24609').style.display = 'none'">
+     <img class="img_hover" style="left:20px" id="im_prod_24609" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/5/9/5968-5093-800x800.jpg" name="im_prod_24609">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/finnlight.html"> Finnlight
+   <div class="marque"> Beretta
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 175€
+     <div class="prix_vente"> 135,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/finnlight.html'">Voir ce produit</button>
+                                                                                                </div>
+
+====================
+NOT Suggested: 4 traversed structure VS 40 matched by xpath. calculated XPATH:  /html[@xmlns='http://www.w3.org/1999/xhtml']/body/div[@id='global']/div[@id='contour']/div[@id='contenu']/div[@class='category-products']/ol[@class='products-grid category category-products-list']/li[@class='item']
+---------- <Element li at 0x10e4ebef0>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <span title="http://www.cariboom.com/baie-de-somme.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/2/6/2687-1414-800x800.jpg" width="185" height="185" alt="Baie de Somme">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_26060').style.display = 'block'" onmouseout="document.getElementById('im_prod_26060').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_26060" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/2/6/2687-1414-800x800.jpg" name="im_prod_26060">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/baie-de-somme.html"> Baie de Somme
+   <div class="marque"> LMA
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 159,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/baie-de-somme.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4ebd70>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Prix Canon rouge">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -50
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/valvenant.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/7/5/7566-6894-800x800.jpg" width="185" height="185" alt="Valvenant">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_24832').style.display = 'block'" onmouseout="document.getElementById('im_prod_24832').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_24832" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/7/5/7566-6894-800x800.jpg" name="im_prod_24832">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/valvenant.html"> Valvenant
+   <div class="marque"> Club Interchasse
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 279€
+     <div class="prix_vente"> 139,50 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/valvenant.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb170>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+   <span title="http://www.cariboom.com/stalker-33383.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/4/7/4735_d1.jpg" width="185" height="185" alt="Stalker">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_33383').style.display = 'block'" onmouseout="document.getElementById('im_prod_33383').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_33383" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/4/7/4735_d1.jpg" name="im_prod_33383">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/stalker-33383.html"> Stalker
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 139,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/stalker-33383.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4ebd10>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -29
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/wilvest.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/8/380-101-800x800.jpg" width="185" height="185" alt="Wilvest">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_24138').style.display = 'block'" onmouseout="document.getElementById('im_prod_24138').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_24138" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/8/380-101-800x800.jpg" name="im_prod_24138">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/wilvest.html"> Wilvest
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 199€
+     <div class="prix_vente"> 140,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="out">Indisponible</button>
+                                                                                                </div>
+
+====================
+NOT Suggested: 4 traversed structure VS 40 matched by xpath. calculated XPATH:  /html[@xmlns='http://www.w3.org/1999/xhtml']/body/div[@id='global']/div[@id='contour']/div[@id='contenu']/div[@class='category-products']/ol[@class='products-grid category category-products-list']/li[@class='item']
+---------- <Element li at 0x10e4eb290>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -50
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/wayne.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3464-3225-800x800.jpg" width="185" height="185" alt="Wayne">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_23807').style.display = 'block'" onmouseout="document.getElementById('im_prod_23807').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_23807" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3464-3225-800x800.jpg" name="im_prod_23807">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/wayne.html"> Wayne
+   <div class="marque"> Club Interchasse
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 295€
+     <div class="prix_vente"> 147,50 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/wayne.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb0b0>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <span title="http://www.cariboom.com/super-traqueur-g7-verte.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/4/8/482-149-800x800.jpg" width="185" height="185" alt="Super Traqueur G7 verte">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_21019').style.display = 'block'" onmouseout="document.getElementById('im_prod_21019').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_21019" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/4/8/482-149-800x800.jpg" name="im_prod_21019">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/super-traqueur-g7-verte.html"> Super Traqueur G7 verte
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 149,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/super-traqueur-g7-verte.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4ebe90>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Nouveauté vert">&nbsp;</div>
+   <span title="http://www.cariboom.com/veste-longogne.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/l/a/langogne-veste-col-ouvert-1.png" width="185" height="185" alt="Langogne veste">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_32894').style.display = 'block'" onmouseout="document.getElementById('im_prod_32894').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_32894" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/l/a/langogne-veste-col-ouvert-1.png" name="im_prod_32894">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/veste-longogne.html"> Langogne veste
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 149,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-longogne.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb2f0>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new ">&nbsp;</div>
+     <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_new.png">
+   <span title="http://www.cariboom.com/veste-neville.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/c/h/chaussures-d-approche-lynx-harkila-chapuis_3__1.jpg" width="185" height="185" alt="Veste Neville">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_56620').style.display = 'block'" onmouseout="document.getElementById('im_prod_56620').style.display = 'none'">
+     <img class="img_hover" style="left:20px" id="im_prod_56620" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/c/h/chaussures-d-approche-lynx-harkila-chapuis_3__1.jpg" name="im_prod_56620">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/veste-neville.html"> Veste Neville
+   <div class="marque"> Seeland
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 159,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-neville.html'">Voir ce produit</button>
+                                                                                                </div>
+
+====================
+NOT Suggested: 4 traversed structure VS 40 matched by xpath. calculated XPATH:  /html[@xmlns='http://www.w3.org/1999/xhtml']/body/div[@id='global']/div[@id='contour']/div[@id='contenu']/div[@class='category-products']/ol[@class='products-grid category category-products-list']/li[@class='item']
+---------- <Element li at 0x10e4eb470>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="Nouveauté vert">&nbsp;</div>
+   <span title="http://www.cariboom.com/foxgame.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/f/o/foxgame.png" width="185" height="185" alt="Foxgame">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_31736').style.display = 'block'" onmouseout="document.getElementById('im_prod_31736').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_31736" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/f/o/foxgame.png" name="im_prod_31736">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/foxgame.html"> Foxgame
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                                                         <div class="rating-box">
+                                <div class="rating" style="width:100%;"></div>
+                            </div>
+                                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 159,90 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/foxgame.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4ebf50>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -50
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/cedric.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3471-3224-800x800.jpg" width="185" height="185" alt="Cédric">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_22668').style.display = 'block'" onmouseout="document.getElementById('im_prod_22668').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_22668" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3471-3224-800x800.jpg" name="im_prod_22668">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/cedric.html"> Cédric
+   <div class="marque"> Club Interchasse
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 339€
+     <div class="prix_vente"> 169,50 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/cedric.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4ebb30>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -50
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/james-b-the.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3465-2272-800x800.jpg" width="185" height="185" alt="James B (thé)">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_22192').style.display = 'block'" onmouseout="document.getElementById('im_prod_22192').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_22192" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3465-2272-800x800.jpg" name="im_prod_22192">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/james-b-the.html"> James B (thé)
+   <div class="marque"> Club Interchasse
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 349€
+     <div class="prix_vente"> 174,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/james-b-the.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eba10>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -33
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/niagara.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/7/373-98-800x800.jpg" width="185" height="185" alt="Niagara">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_23371').style.display = 'block'" onmouseout="document.getElementById('im_prod_23371').style.display = 'none'">
+     <img class="img_hover" style="left:20px" id="im_prod_23371" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/7/373-98-800x800.jpg" name="im_prod_23371">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/niagara.html"> Niagara
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 279€
+     <div class="prix_vente"> 186,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/niagara.html'">Voir ce produit</button>
+                                                                                                </div>
+
+====================
+NOT Suggested: 4 traversed structure VS 40 matched by xpath. calculated XPATH:  /html[@xmlns='http://www.w3.org/1999/xhtml']/body/div[@id='global']/div[@id='contour']/div[@id='contenu']/div[@class='category-products']/ol[@class='products-grid category category-products-list']/li[@class='item']
+---------- <Element li at 0x10e4eb1d0>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -29
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/foxtrot.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/7/372-97-800x800.jpg" width="185" height="185" alt="Foxtrot">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_22029').style.display = 'block'" onmouseout="document.getElementById('im_prod_22029').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_22029" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/7/372-97-800x800.jpg" name="im_prod_22029">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/foxtrot.html"> Foxtrot
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 265€
+     <div class="prix_vente"> 188,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/foxtrot.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e4eb410>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -34
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/ladislas-light-bronze.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3466-2270-800x800.jpg" width="185" height="185" alt="Ladislas Light Bronze">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_23667').style.display = 'block'" onmouseout="document.getElementById('im_prod_23667').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_23667" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3466-2270-800x800.jpg" name="im_prod_23667">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/ladislas-light-bronze.html"> Ladislas Light Bronze
+   <div class="marque"> Club Interchasse
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 289€
+     <div class="prix_vente"> 189,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/ladislas-light-bronze.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e555a10>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <span title="http://www.cariboom.com/targit-innovation.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/6/7/6760-6210-800x800.jpg" width="185" height="185" alt="Targit Innovation">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_26672').style.display = 'block'" onmouseout="document.getElementById('im_prod_26672').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_26672" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/6/7/6760-6210-800x800.jpg" name="im_prod_26672">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/targit-innovation.html"> Targit Innovation
+   <div class="marque"> Deerhunter
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 194,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/targit-innovation.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e5554d0>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -33
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/ladislas-caramel.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3474-2269-800x800_2.jpg" width="185" height="185" alt="Ladislas Caramel">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_20736').style.display = 'block'" onmouseout="document.getElementById('im_prod_20736').style.display = 'none'">
+     <img class="img_hover" style="left:20px" id="im_prod_20736" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3474-2269-800x800_2.jpg" name="im_prod_20736">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/ladislas-caramel.html"> Ladislas Caramel
+   <div class="marque"> Club Interchasse
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 295€
+     <div class="prix_vente"> 195,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/ladislas-caramel.html'">Voir ce produit</button>
+                                                                                                </div>
+
+====================
+NOT Suggested: 4 traversed structure VS 40 matched by xpath. calculated XPATH:  /html[@xmlns='http://www.w3.org/1999/xhtml']/body/div[@id='global']/div[@id='contour']/div[@id='contenu']/div[@class='category-products']/ol[@class='products-grid category category-products-list']/li[@class='item']
+---------- <Element li at 0x10e555830>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <div class="upsell_remise">
+     <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+     <div class="prc_promo"> -33
+       <div class="prc_prc"> %
+   <span title="http://www.cariboom.com/ladislas-chocolat.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3468-2266-800x800.jpg" width="185" height="185" alt="Ladislas Chocolat">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_23661').style.display = 'block'" onmouseout="document.getElementById('im_prod_23661').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_23661" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3468-2266-800x800.jpg" name="im_prod_23661">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/ladislas-chocolat.html"> Ladislas Chocolat
+   <div class="marque"> Club Interchasse
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix">
+     <div class="prix_public"> 295€
+     <div class="prix_vente"> 195,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/ladislas-chocolat.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e5556b0>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo ">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <span title="http://www.cariboom.com/taillis-ap.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/8/381-102-800x800_1.jpg" width="185" height="185" alt="Taillis AP">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_29821').style.display = 'block'" onmouseout="document.getElementById('im_prod_29821').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_29821" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/8/381-102-800x800_1.jpg" name="im_prod_29821">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/taillis-ap.html"> Taillis AP
+   <div class="marque"> Ligne Verney-Carron
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 289,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/taillis-ap.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e555050>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <span title="http://www.cariboom.com/targit-blaze.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/6/7/6758-6016-800x800.jpg" width="185" height="185" alt="Targit Blaze">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_26652').style.display = 'block'" onmouseout="document.getElementById('im_prod_26652').style.display = 'none'">
+     <img class="img_hover" style="right:-140px" id="im_prod_26652" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/6/7/6758-6016-800x800.jpg" name="im_prod_26652">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/targit-blaze.html"> Targit Blaze
+   <div class="marque"> Deerhunter
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 199,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/targit-blaze.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element li at 0x10e555470>
+ <li class="item">
+   <div class="bandeau">
+     <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+     <<built-in function Comment>> <div class="">&nbsp;</div>
+   <span title="http://www.cariboom.com/veste-reel-o.html" class="url product-image">
+     <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/6/1/6142-5414-800x800.jpg" width="185" height="185" alt=" Reel'o">
+   <div class="buttons" style="position:relative;">
+     <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_27216').style.display = 'block'" onmouseout="document.getElementById('im_prod_27216').style.display = 'none'">
+     <img class="img_hover" style="left:20px" id="im_prod_27216" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/6/1/6142-5414-800x800.jpg" name="im_prod_27216">
+   <div class="title">
+     <h3 class="product-name">
+       <a href="http://www.cariboom.com/veste-reel-o.html"> Reel'o
+   <div class="marque"> Beretta
+   <<built-in function Comment>> <div class="avis">
+                                                        </div>
+   <div class="prix_sans_promo">
+     <div class="prix_vente_sans_promo"> 199,00 €
+   <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-reel-o.html'">Voir ce produit</button>
+                                                                                                </div>
+
+====================
+ calculated XPATH:  /html[@xmlns='http://www.w3.org/1999/xhtml']/body/div[@id='global']/div[@id='contour']/div[@id='contenu']/div[@class='category-products']/ol[@class='products-grid category category-products-list']
+---------- <Element ol at 0x10e4dee30>
+ <ol class="products-grid category category-products-list">
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo ">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -60
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/coton-huile-vert.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/1/1/114932d120080626170149.jpg" width="185" height="185" alt="Coton huilé Vert 3XL">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_31663').style.display = 'block'" onmouseout="document.getElementById('im_prod_31663').style.display = 'none'">
+       <img class="img_hover" style="" id="im_prod_31663" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/1/1/114932d120080626170149.jpg" name="im_prod_31663">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/coton-huile-vert.html"> Coton huilé Vert 3XL
+     <div class="marque">
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 70€
+       <div class="prix_vente"> 27,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="out">Indisponible</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+     <span title="http://www.cariboom.com/waxon.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/v/e/vest_carib.png" width="185" height="185" alt="Waxon">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_33331').style.display = 'block'" onmouseout="document.getElementById('im_prod_33331').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_33331" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/v/e/vest_carib.png" name="im_prod_33331">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/waxon.html"> Waxon
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 49,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/waxon.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Best-seller orange">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -34
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/rockveste.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/7/379-100-800x800.jpg" width="185" height="185" alt="Rockveste">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_22042').style.display = 'block'" onmouseout="document.getElementById('im_prod_22042').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_22042" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/7/379-100-800x800.jpg" name="im_prod_22042">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/rockveste.html"> Rockveste
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 89€
+       <div class="prix_vente"> 58,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/rockveste.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -31
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/softap.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/7/371-96-800x800.jpg" width="185" height="185" alt="Softap">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_23364').style.display = 'block'" onmouseout="document.getElementById('im_prod_23364').style.display = 'none'">
+       <img class="img_hover" style="left:20px" id="im_prod_23364" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/7/371-96-800x800.jpg" name="im_prod_23364">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/softap.html"> Softap
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 99€
+       <div class="prix_vente"> 68,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/softap.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element ol at 0x10e4deef0>
+ <ol class="products-grid category category-products-list">
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+     <span title="http://www.cariboom.com/veste-greenville.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/5/1/5121_d1.jpg" width="185" height="185" alt=" Greenville">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_33206').style.display = 'block'" onmouseout="document.getElementById('im_prod_33206').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_33206" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/5/1/5121_d1.jpg" name="im_prod_33206">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/veste-greenville.html"> Greenville
+     <div class="marque"> Deerhunter
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 68,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-greenville.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new ">&nbsp;</div>
+       <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_new.png">
+     <span title="http://www.cariboom.com/souchet.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/2/1/214700-souchet.jpg" width="185" height="185" alt="Souchet">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_56123').style.display = 'block'" onmouseout="document.getElementById('im_prod_56123').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_56123" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/2/1/214700-souchet.jpg" name="im_prod_56123">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/souchet.html"> Souchet
+     <div class="marque"> LMA
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 69,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/souchet.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Prix Canon rouge">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -59
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/cassidy.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/1/3100-1860-800x800.jpg" width="185" height="185" alt="Cassidy">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_24802').style.display = 'block'" onmouseout="document.getElementById('im_prod_24802').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_24802" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/1/3100-1860-800x800.jpg" name="im_prod_24802">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/cassidy.html"> Cassidy
+     <div class="marque"> Club Interchasse
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 249€
+       <div class="prix_vente"> 99,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/cassidy.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -33
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/super-traqueur-g7-orange.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/6/1/6152_d1.jpg" width="185" height="185" alt="Super Traqueur G7 Orange">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_28077').style.display = 'block'" onmouseout="document.getElementById('im_prod_28077').style.display = 'none'">
+       <img class="img_hover" style="left:20px" id="im_prod_28077" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/6/1/6152_d1.jpg" name="im_prod_28077">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/super-traqueur-g7-orange.html"> Super Traqueur G7 Orange
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 150€
+       <div class="prix_vente"> 99,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/super-traqueur-g7-orange.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element ol at 0x10e4dedd0>
+ <ol class="products-grid category category-products-list">
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+     <span title="http://www.cariboom.com/clermont.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/c/l/clermont.png" width="185" height="185" alt="Clermont">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_37053').style.display = 'block'" onmouseout="document.getElementById('im_prod_37053').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_37053" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/c/l/clermont.png" name="im_prod_37053">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/clermont.html"> Clermont
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 99,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/clermont.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+     <span title="http://www.cariboom.com/irlande.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/8/6/8693-8189-800x800.jpg" width="185" height="185" alt="Irlande">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_53761').style.display = 'block'" onmouseout="document.getElementById('im_prod_53761').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_53761" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/8/6/8693-8189-800x800.jpg" name="im_prod_53761">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/irlande.html"> Irlande
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 99,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/irlande.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new ">&nbsp;</div>
+       <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_new.png">
+     <span title="http://www.cariboom.com/veste-neville-kid.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/v/e/veste-chasse-neville-seeland-chapuis.jpg" width="185" height="185" alt="Veste Neville kid">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_56636').style.display = 'block'" onmouseout="document.getElementById('im_prod_56636').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_56636" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/v/e/veste-chasse-neville-seeland-chapuis.jpg" name="im_prod_56636">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/veste-neville-kid.html"> Veste Neville kid
+     <div class="marque"> Seeland
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 109,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-neville-kid.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new ">&nbsp;</div>
+       <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_new.png">
+     <span title="http://www.cariboom.com/kerguelen.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/2/0/200495_-_kerguelen.jpg" width="185" height="185" alt="Kerguelen">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_56130').style.display = 'block'" onmouseout="document.getElementById('im_prod_56130').style.display = 'none'">
+       <img class="img_hover" style="left:20px" id="im_prod_56130" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/2/0/200495_-_kerguelen.jpg" name="im_prod_56130">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/kerguelen.html"> Kerguelen
+     <div class="marque"> LMA
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 109,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/kerguelen.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element ol at 0x10e4eb3b0>
+ <ol class="products-grid category category-products-list">
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo ">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -30
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/veste-25th-anniversaire-deerhunter.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/6/0/6083-5326-800x800.jpg" width="185" height="185" alt="Veste 25th Anniversaire Deerhunter">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_26949').style.display = 'block'" onmouseout="document.getElementById('im_prod_26949').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_26949" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/6/0/6083-5326-800x800.jpg" name="im_prod_26949">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/veste-25th-anniversaire-deerhunter.html"> Veste 25th Anniversaire Deerhunter
+     <div class="marque"> Deerhunter
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 160€
+       <div class="prix_vente"> 112,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-25th-anniversaire-deerhunter.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Déstockage rouge">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -50
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/taillis-camo-at.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3462-2275-800x800.jpg" width="185" height="185" alt="Taillis Camo AT">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_23979').style.display = 'block'" onmouseout="document.getElementById('im_prod_23979').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_23979" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3462-2275-800x800.jpg" name="im_prod_23979">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/taillis-camo-at.html"> Taillis Camo AT
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 230€
+       <div class="prix_vente"> 115,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/taillis-camo-at.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Nouveauté vert">&nbsp;</div>
+     <span title="http://www.cariboom.com/super-traq-light-g7.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/s/u/super-traq-light-g7-veste.png" width="185" height="185" alt="Super Traq Light G7 ">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_31754').style.display = 'block'" onmouseout="document.getElementById('im_prod_31754').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_31754" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/s/u/super-traq-light-g7-veste.png" name="im_prod_31754">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/super-traq-light-g7.html"> Super Traq Light G7
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 119,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/super-traq-light-g7.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Nouveauté vert">&nbsp;</div>
+     <span title="http://www.cariboom.com/super-epine.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/s/u/super-_pine-veste.png" width="185" height="185" alt="Super Epine">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_31872').style.display = 'block'" onmouseout="document.getElementById('im_prod_31872').style.display = 'none'">
+       <img class="img_hover" style="left:20px" id="im_prod_31872" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/s/u/super-_pine-veste.png" name="im_prod_31872">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/super-epine.html"> Super Epine
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 119,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/super-epine.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element ol at 0x10e4eb7d0>
+ <ol class="products-grid category category-products-list">
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Nouveauté vert">&nbsp;</div>
+     <span title="http://www.cariboom.com/veste-chambord.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/c/h/chambord-jacket-col-ouvert-.png" width="185" height="185" alt="Veste Chambord">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_32005').style.display = 'block'" onmouseout="document.getElementById('im_prod_32005').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_32005" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/c/h/chambord-jacket-col-ouvert-.png" name="im_prod_32005">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/veste-chambord.html"> Veste Chambord
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 119,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-chambord.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Nouveauté vert">&nbsp;</div>
+     <span title="http://www.cariboom.com/veste-berry.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/b/e/berry-sans-capuche1.png" width="185" height="185" alt=" Berry">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_32882').style.display = 'block'" onmouseout="document.getElementById('im_prod_32882').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_32882" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/b/e/berry-sans-capuche1.png" name="im_prod_32882">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/veste-berry.html"> Berry
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 119,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-berry.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo ">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -23
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/targit-olive.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/6/7/6759-6007-800x800.jpg" width="185" height="185" alt="Targit Olive">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_26662').style.display = 'block'" onmouseout="document.getElementById('im_prod_26662').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_26662" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/6/7/6759-6007-800x800.jpg" name="im_prod_26662">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/targit-olive.html"> Targit Olive
+     <div class="marque"> Deerhunter
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 167€
+       <div class="prix_vente"> 127,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/targit-olive.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo ">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -22
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/finnlight.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/5/9/5968-5093-800x800.jpg" width="185" height="185" alt="Finnlight">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_24609').style.display = 'block'" onmouseout="document.getElementById('im_prod_24609').style.display = 'none'">
+       <img class="img_hover" style="left:20px" id="im_prod_24609" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/5/9/5968-5093-800x800.jpg" name="im_prod_24609">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/finnlight.html"> Finnlight
+     <div class="marque"> Beretta
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 175€
+       <div class="prix_vente"> 135,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/finnlight.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element ol at 0x10e4ebe30>
+ <ol class="products-grid category category-products-list">
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <span title="http://www.cariboom.com/baie-de-somme.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/2/6/2687-1414-800x800.jpg" width="185" height="185" alt="Baie de Somme">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_26060').style.display = 'block'" onmouseout="document.getElementById('im_prod_26060').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_26060" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/2/6/2687-1414-800x800.jpg" name="im_prod_26060">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/baie-de-somme.html"> Baie de Somme
+     <div class="marque"> LMA
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 159,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/baie-de-somme.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Prix Canon rouge">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -50
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/valvenant.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/7/5/7566-6894-800x800.jpg" width="185" height="185" alt="Valvenant">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_24832').style.display = 'block'" onmouseout="document.getElementById('im_prod_24832').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_24832" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/7/5/7566-6894-800x800.jpg" name="im_prod_24832">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/valvenant.html"> Valvenant
+     <div class="marque"> Club Interchasse
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 279€
+       <div class="prix_vente"> 139,50 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/valvenant.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+     <span title="http://www.cariboom.com/stalker-33383.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/4/7/4735_d1.jpg" width="185" height="185" alt="Stalker">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_33383').style.display = 'block'" onmouseout="document.getElementById('im_prod_33383').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_33383" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/4/7/4735_d1.jpg" name="im_prod_33383">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/stalker-33383.html"> Stalker
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 139,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/stalker-33383.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -29
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/wilvest.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/8/380-101-800x800.jpg" width="185" height="185" alt="Wilvest">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_24138').style.display = 'block'" onmouseout="document.getElementById('im_prod_24138').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_24138" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/8/380-101-800x800.jpg" name="im_prod_24138">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/wilvest.html"> Wilvest
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 199€
+       <div class="prix_vente"> 140,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="out">Indisponible</button>
+                                                                                                </div>
+---------- <Element ol at 0x10e4ebdd0>
+ <ol class="products-grid category category-products-list">
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -50
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/wayne.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3464-3225-800x800.jpg" width="185" height="185" alt="Wayne">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_23807').style.display = 'block'" onmouseout="document.getElementById('im_prod_23807').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_23807" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3464-3225-800x800.jpg" name="im_prod_23807">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/wayne.html"> Wayne
+     <div class="marque"> Club Interchasse
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 295€
+       <div class="prix_vente"> 147,50 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/wayne.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <span title="http://www.cariboom.com/super-traqueur-g7-verte.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/4/8/482-149-800x800.jpg" width="185" height="185" alt="Super Traqueur G7 verte">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_21019').style.display = 'block'" onmouseout="document.getElementById('im_prod_21019').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_21019" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/4/8/482-149-800x800.jpg" name="im_prod_21019">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/super-traqueur-g7-verte.html"> Super Traqueur G7 verte
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 149,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/super-traqueur-g7-verte.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Nouveauté vert">&nbsp;</div>
+     <span title="http://www.cariboom.com/veste-longogne.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/l/a/langogne-veste-col-ouvert-1.png" width="185" height="185" alt="Langogne veste">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_32894').style.display = 'block'" onmouseout="document.getElementById('im_prod_32894').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_32894" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/l/a/langogne-veste-col-ouvert-1.png" name="im_prod_32894">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/veste-longogne.html"> Langogne veste
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 149,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-longogne.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new ">&nbsp;</div>
+       <<built-in function Comment>> <div class="Rien">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_new.png">
+     <span title="http://www.cariboom.com/veste-neville.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/c/h/chaussures-d-approche-lynx-harkila-chapuis_3__1.jpg" width="185" height="185" alt="Veste Neville">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_56620').style.display = 'block'" onmouseout="document.getElementById('im_prod_56620').style.display = 'none'">
+       <img class="img_hover" style="left:20px" id="im_prod_56620" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/c/h/chaussures-d-approche-lynx-harkila-chapuis_3__1.jpg" name="im_prod_56620">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/veste-neville.html"> Veste Neville
+     <div class="marque"> Seeland
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 159,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-neville.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element ol at 0x10e4ebbf0>
+ <ol class="products-grid category category-products-list">
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="Nouveauté vert">&nbsp;</div>
+     <span title="http://www.cariboom.com/foxgame.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/f/o/foxgame.png" width="185" height="185" alt="Foxgame">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_31736').style.display = 'block'" onmouseout="document.getElementById('im_prod_31736').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_31736" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/f/o/foxgame.png" name="im_prod_31736">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/foxgame.html"> Foxgame
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                                                         <div class="rating-box">
+                                <div class="rating" style="width:100%;"></div>
+                            </div>
+                                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 159,90 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/foxgame.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -50
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/cedric.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3471-3224-800x800.jpg" width="185" height="185" alt="Cédric">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_22668').style.display = 'block'" onmouseout="document.getElementById('im_prod_22668').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_22668" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3471-3224-800x800.jpg" name="im_prod_22668">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/cedric.html"> Cédric
+     <div class="marque"> Club Interchasse
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 339€
+       <div class="prix_vente"> 169,50 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/cedric.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -50
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/james-b-the.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3465-2272-800x800.jpg" width="185" height="185" alt="James B (thé)">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_22192').style.display = 'block'" onmouseout="document.getElementById('im_prod_22192').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_22192" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3465-2272-800x800.jpg" name="im_prod_22192">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/james-b-the.html"> James B (thé)
+     <div class="marque"> Club Interchasse
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 349€
+       <div class="prix_vente"> 174,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/james-b-the.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -33
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/niagara.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/7/373-98-800x800.jpg" width="185" height="185" alt="Niagara">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_23371').style.display = 'block'" onmouseout="document.getElementById('im_prod_23371').style.display = 'none'">
+       <img class="img_hover" style="left:20px" id="im_prod_23371" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/7/373-98-800x800.jpg" name="im_prod_23371">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/niagara.html"> Niagara
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 279€
+       <div class="prix_vente"> 186,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/niagara.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element ol at 0x10e4eb230>
+ <ol class="products-grid category category-products-list">
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -29
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/foxtrot.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/7/372-97-800x800.jpg" width="185" height="185" alt="Foxtrot">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_22029').style.display = 'block'" onmouseout="document.getElementById('im_prod_22029').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_22029" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/7/372-97-800x800.jpg" name="im_prod_22029">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/foxtrot.html"> Foxtrot
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 265€
+       <div class="prix_vente"> 188,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/foxtrot.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -34
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/ladislas-light-bronze.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3466-2270-800x800.jpg" width="185" height="185" alt="Ladislas Light Bronze">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_23667').style.display = 'block'" onmouseout="document.getElementById('im_prod_23667').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_23667" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3466-2270-800x800.jpg" name="im_prod_23667">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/ladislas-light-bronze.html"> Ladislas Light Bronze
+     <div class="marque"> Club Interchasse
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 289€
+       <div class="prix_vente"> 189,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/ladislas-light-bronze.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <span title="http://www.cariboom.com/targit-innovation.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/6/7/6760-6210-800x800.jpg" width="185" height="185" alt="Targit Innovation">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_26672').style.display = 'block'" onmouseout="document.getElementById('im_prod_26672').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_26672" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/6/7/6760-6210-800x800.jpg" name="im_prod_26672">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/targit-innovation.html"> Targit Innovation
+     <div class="marque"> Deerhunter
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 194,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/targit-innovation.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -33
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/ladislas-caramel.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3474-2269-800x800_2.jpg" width="185" height="185" alt="Ladislas Caramel">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_20736').style.display = 'block'" onmouseout="document.getElementById('im_prod_20736').style.display = 'none'">
+       <img class="img_hover" style="left:20px" id="im_prod_20736" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3474-2269-800x800_2.jpg" name="im_prod_20736">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/ladislas-caramel.html"> Ladislas Caramel
+     <div class="marque"> Club Interchasse
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 295€
+       <div class="prix_vente"> 195,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/ladislas-caramel.html'">Voir ce produit</button>
+                                                                                                </div>
+---------- <Element ol at 0x10e4eb830>
+ <ol class="products-grid category category-products-list">
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <div class="upsell_remise">
+       <img class="img_promo" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/icone_reduc.png">
+       <div class="prc_promo"> -33
+         <div class="prc_prc"> %
+     <span title="http://www.cariboom.com/ladislas-chocolat.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/4/3468-2266-800x800.jpg" width="185" height="185" alt="Ladislas Chocolat">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_23661').style.display = 'block'" onmouseout="document.getElementById('im_prod_23661').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_23661" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/4/3468-2266-800x800.jpg" name="im_prod_23661">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/ladislas-chocolat.html"> Ladislas Chocolat
+     <div class="marque"> Club Interchasse
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix">
+       <div class="prix_public"> 295€
+       <div class="prix_vente"> 195,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/ladislas-chocolat.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo ">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <span title="http://www.cariboom.com/taillis-ap.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/3/8/381-102-800x800_1.jpg" width="185" height="185" alt="Taillis AP">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_29821').style.display = 'block'" onmouseout="document.getElementById('im_prod_29821').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_29821" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/3/8/381-102-800x800_1.jpg" name="im_prod_29821">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/taillis-ap.html"> Taillis AP
+     <div class="marque"> Ligne Verney-Carron
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 289,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/taillis-ap.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <span title="http://www.cariboom.com/targit-blaze.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/6/7/6758-6016-800x800.jpg" width="185" height="185" alt="Targit Blaze">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_26652').style.display = 'block'" onmouseout="document.getElementById('im_prod_26652').style.display = 'none'">
+       <img class="img_hover" style="right:-140px" id="im_prod_26652" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/6/7/6758-6016-800x800.jpg" name="im_prod_26652">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/targit-blaze.html"> Targit Blaze
+     <div class="marque"> Deerhunter
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 199,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/targit-blaze.html'">Voir ce produit</button>
+                                                                                                </div>
+   <li class="item">
+     <div class="bandeau">
+       <<built-in function Comment>> <div class="promo nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="new nodisplay">&nbsp;</div>
+       <<built-in function Comment>> <div class="">&nbsp;</div>
+     <span title="http://www.cariboom.com/veste-reel-o.html" class="url product-image">
+       <img src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/6/1/6142-5414-800x800.jpg" width="185" height="185" alt=" Reel'o">
+     <div class="buttons" style="position:relative;">
+       <img class="img_plus" src="http://www.cariboom.com/skin/frontend/igwane/cariboom/images/voir_plus.png" alt="rechercher" onmouseover="document.getElementById('im_prod_27216').style.display = 'block'" onmouseout="document.getElementById('im_prod_27216').style.display = 'none'">
+       <img class="img_hover" style="left:20px" id="im_prod_27216" src="http://www.cariboom.com/media/catalog/product/cache/1/small_image/325x/9df78eab33525d08d6e5fb8d27136e95/6/1/6142-5414-800x800.jpg" name="im_prod_27216">
+     <div class="title">
+       <h3 class="product-name">
+         <a href="http://www.cariboom.com/veste-reel-o.html"> Reel'o
+     <div class="marque"> Beretta
+     <<built-in function Comment>> <div class="avis">
+                                                        </div>
+     <div class="prix_sans_promo">
+       <div class="prix_vente_sans_promo"> 199,00 €
+     <<built-in function Comment>> <div class="buttons">
+                                                                                                                        <button type="button" class="valid" onclick="location.href='http://www.cariboom.com/veste-reel-o.html'">Voir ce produit</button>
+                                                                                                </div>
+

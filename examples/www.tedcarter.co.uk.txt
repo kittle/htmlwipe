@@ -1,0 +1,166 @@
+Traverse: detected 2 structures:
+
+[[<Element tr at 0x10fae0110>,
+  <Element tr at 0x10fae0290>,
+  <Element tr at 0x10fae0dd0>,
+  <Element tr at 0x10fae0470>,
+  <Element tr at 0x10fae0890>],
+ [<Element div at 0x10fae08f0>,
+  <Element div at 0x10fae03b0>,
+  <Element div at 0x10fae0e30>,
+  <Element div at 0x10fae0350>,
+  <Element div at 0x10fae0fb0>]]
+
+Detailed:
+====================
+ calculated XPATH:  /html[@class=' js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths']/body/div[@id='background']/div[@id='bg-wrapper']/div[@id='main']/div[@class='content']/div[@class='prod-container']/div[@class='prod-left']/div[@class='product-top-mid-cont']/form[@name='eCart1_1_ATC']/table[@width='100%']/tbody/tr
+---------- <Element tr at 0x10fae0110>
+ <tr>
+   <td valign="middle" height="20px" width="240px"> Esmond Dury Trebles Nickel Plated size 6
+   <td valign="middle" height="20px" width="140px" style="text-align:right;">
+     <p>
+     <p class="now-table"> £5.55
+   <td align="center" valign="middle" width="115px">
+     <label style="float:left; padding-right: 5px; padding-top: 8px;">
+     <input name="eCart1_Option[]" class="quantityInput" id="quantity96453" value="0" style="width:30px;float:left;">
+     <div style="float:left; margin-top:-5px">
+       <input type="submit" class="spin spin-up paybutton" value="▲" name="eCart1_basket_Update_qty_add" onclick="document.getElementById('quantity96453').value++;return false;">
+       <input type="submit" style="margin-top: 2px;" class="spin spin-down paybutton" value="▼" name="eCart1_basket_Update_qty_take" onclick="if(document.getElementById('quantity96453').value > 0){ document.getElementById('quantity96453').value--; } return false;">
+---------- <Element tr at 0x10fae0290>
+ <tr>
+   <td valign="middle" height="20px" width="240px"> Esmond Dury Trebles Nickle Plated size 8
+   <td valign="middle" height="20px" width="140px" style="text-align:right;">
+     <p>
+     <p class="now-table"> £5.55
+   <td align="center" valign="middle" width="115px">
+     <label style="float:left; padding-right: 5px; padding-top: 8px;">
+     <input name="eCart1_Option[]" class="quantityInput" id="quantity96454" value="0" style="width:30px;float:left;">
+     <div style="float:left; margin-top:-5px">
+       <input type="submit" class="spin spin-up paybutton" value="▲" name="eCart1_basket_Update_qty_add" onclick="document.getElementById('quantity96454').value++;return false;">
+       <input type="submit" style="margin-top: 2px;" class="spin spin-down paybutton" value="▼" name="eCart1_basket_Update_qty_take" onclick="if(document.getElementById('quantity96454').value > 0){ document.getElementById('quantity96454').value--; } return false;">
+---------- <Element tr at 0x10fae0dd0>
+ <tr>
+   <td valign="middle" height="20px" width="240px"> Esmond Dury Trebles Nickel Plated size 10
+   <td valign="middle" height="20px" width="140px" style="text-align:right;">
+     <p>
+     <p class="now-table"> £5.55
+   <td align="center" valign="middle" width="115px">
+     <label style="float:left; padding-right: 5px; padding-top: 8px;">
+     <input name="eCart1_Option[]" class="quantityInput" id="quantity89969" value="0" style="width:30px;float:left;">
+     <div style="float:left; margin-top:-5px">
+       <input type="submit" class="spin spin-up paybutton" value="▲" name="eCart1_basket_Update_qty_add" onclick="document.getElementById('quantity89969').value++;return false;">
+       <input type="submit" style="margin-top: 2px;" class="spin spin-down paybutton" value="▼" name="eCart1_basket_Update_qty_take" onclick="if(document.getElementById('quantity89969').value > 0){ document.getElementById('quantity89969').value--; } return false;">
+---------- <Element tr at 0x10fae0470>
+ <tr>
+   <td valign="middle" height="20px" width="240px"> Esmond Dury Trebles Nickel Plated size 12
+   <td valign="middle" height="20px" width="140px" style="text-align:right;">
+     <p>
+     <p class="now-table"> £5.55
+   <td align="center" valign="middle" width="115px">
+     <label style="float:left; padding-right: 5px; padding-top: 8px;">
+     <input name="eCart1_Option[]" class="quantityInput" id="quantity89970" value="0" style="width:30px;float:left;">
+     <div style="float:left; margin-top:-5px">
+       <input type="submit" class="spin spin-up paybutton" value="▲" name="eCart1_basket_Update_qty_add" onclick="document.getElementById('quantity89970').value++;return false;">
+       <input type="submit" style="margin-top: 2px;" class="spin spin-down paybutton" value="▼" name="eCart1_basket_Update_qty_take" onclick="if(document.getElementById('quantity89970').value > 0){ document.getElementById('quantity89970').value--; } return false;">
+---------- <Element tr at 0x10fae0890>
+ <tr>
+   <td valign="middle" height="20px" width="240px"> Esmond Dury Trebles Nickel Plated size 14
+   <td valign="middle" height="20px" width="140px" style="text-align:right;">
+     <p>
+     <p class="now-table"> £5.55
+   <td align="center" valign="middle" width="115px">
+     <label style="float:left; padding-right: 5px; padding-top: 8px;">
+     <input name="eCart1_Option[]" class="quantityInput" id="quantity89971" value="0" style="width:30px;float:left;">
+     <div style="float:left; margin-top:-5px">
+       <input type="submit" class="spin spin-up paybutton" value="▲" name="eCart1_basket_Update_qty_add" onclick="document.getElementById('quantity89971').value++;return false;">
+       <input type="submit" style="margin-top: 2px;" class="spin spin-down paybutton" value="▼" name="eCart1_basket_Update_qty_take" onclick="if(document.getElementById('quantity89971').value > 0){ document.getElementById('quantity89971').value--; } return false;">
+
+====================
+NOT Suggested: 5 traversed structure VS 7 matched by xpath. calculated XPATH:  /html[@class=' js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths']/body/div[@id='background']/div[@id='bg-wrapper']/div[@id='main']/div[@class='content']/div[@class='prod-container']/div[@style='height: 330px; margin-bottom: 15px;']/div
+---------- <Element div at 0x10fae08f0>
+ <div class="browse-product" id="veniard-esmond-dury-trebles-black">
+   <div class="wraptocenter">
+     <a href="http://www.tedcarter.co.uk/veniard/veniard-esmond-dury-trebles-black">
+       <img src="./Veniard Esmond Dury Trebles Nickel Plated   Ted Carter Fishing Tackle_files/med_veniard-esmond-dury-trebles-black.jpg" alt="Veniard Esmond Dury Trebles Black" border="0" title="Veniard Esmond Dury Trebles Black" style="max-height:135px;max-width:135px" class="constrain-width">
+   <div class="desc-container">
+     <div class="manuf">
+       <a href="http://www.tedcarter.co.uk/veniard/veniard-esmond-dury-trebles-black"> Veniard
+     <div class="desc">
+       <a href="http://www.tedcarter.co.uk/veniard/veniard-esmond-dury-trebles-black"> Veniard Esmond Dury Trebles Black
+     <div class="price">
+       <a href="http://www.tedcarter.co.uk/veniard/veniard-esmond-dury-trebles-black">
+         <div class="browse-price"> From £5.40
+     <a href="http://www.tedcarter.co.uk/veniard/veniard-esmond-dury-trebles-black">
+       <input class="productBadgeButtons productBadgeRightBtn" type="submit" value="View" name="eCart1_1_ATC" onclick="window.location='http://www.tedcarter.co.uk/veniard/veniard-esmond-dury-trebles-black'">
+       <input class="productBadgeButtons productBadgeLeftBtn productBadgeExtend" type="submit" value="Options" name="eCart1_1_ATC" onclick="window.location='http://www.tedcarter.co.uk/veniard/veniard-esmond-dury-trebles-black'">
+---------- <Element div at 0x10fae03b0>
+ <div class="browse-product" id="veniard-dubbing-twister">
+   <div class="wraptocenter">
+     <a href="http://www.tedcarter.co.uk/veniard/veniard-dubbing-twister">
+       <img src="./Veniard Esmond Dury Trebles Nickel Plated   Ted Carter Fishing Tackle_files/med_veniard-dubbing-twister.jpg" alt="Veniard Dubbing Twister" border="0" title="Veniard Dubbing Twister" style="max-height:135px;max-width:135px" class="constrain-height">
+   <div class="desc-container">
+     <div class="manuf">
+       <a href="http://www.tedcarter.co.uk/veniard/veniard-dubbing-twister"> Veniard
+     <div class="desc">
+       <a href="http://www.tedcarter.co.uk/veniard/veniard-dubbing-twister"> Veniard Dubbing Twister
+     <div class="price">
+       <a href="http://www.tedcarter.co.uk/veniard/veniard-dubbing-twister">
+         <div class="browse-price"> Price £5.10
+     <a href="http://www.tedcarter.co.uk/veniard/veniard-dubbing-twister">
+       <input class="productBadgeButtons productBadgeRightBtn" type="submit" value="View" name="eCart1_1_ATC" onclick="window.location='http://www.tedcarter.co.uk/veniard/veniard-dubbing-twister'">
+     <form name="eCart1_1_ATC" method="POST" action="http://www.tedcarter.co.uk/veniard/veniard-dubbing-twister">
+       <input type="hidden" name="eCart1_1_ID_Add" value="">
+       <input name="eCart1_Option[]" type="hidden" id="quantity" value="1" style="width:30px;float:left;">
+       <input class="productBadgeButtons productBadgeLeftBtn" type="submit" value="Add to Basket" name="eCart1_1_ATC">
+---------- <Element div at 0x10fae0e30>
+ <div class="browse-product" id="fulling-mill-full-mill-comp-heavy-8-x50">
+   <div class="wraptocenter">
+     <a href="http://www.tedcarter.co.uk/fulling-mill/fulling-mill-full-mill-comp-heavy-8-x50">
+       <img src="./Veniard Esmond Dury Trebles Nickel Plated   Ted Carter Fishing Tackle_files/med_noimage.jpg" alt="Full Mill Comp Heavy 8 x50" border="0" title="Full Mill Comp Heavy 8 x50" style="max-height:135px;max-width:135px" class="constrain-height">
+   <div class="desc-container">
+     <div class="manuf">
+       <a href="http://www.tedcarter.co.uk/fulling-mill/fulling-mill-full-mill-comp-heavy-8-x50"> Fulling Mill
+     <div class="desc">
+       <a href="http://www.tedcarter.co.uk/fulling-mill/fulling-mill-full-mill-comp-heavy-8-x50"> Full Mill Comp Heavy 8 x50
+     <div class="price">
+       <a href="http://www.tedcarter.co.uk/fulling-mill/fulling-mill-full-mill-comp-heavy-8-x50">
+         <div class="browse-price"> Price £4.95
+     <a href="http://www.tedcarter.co.uk/fulling-mill/fulling-mill-full-mill-comp-heavy-8-x50">
+       <input class="productBadgeButtons productBadgeRightBtn" type="submit" value="View" name="eCart1_1_ATC" onclick="window.location='http://www.tedcarter.co.uk/fulling-mill/fulling-mill-full-mill-comp-heavy-8-x50'">
+     <form name="eCart1_1_ATC" method="POST" action="http://www.tedcarter.co.uk/fulling-mill/fulling-mill-full-mill-comp-heavy-8-x50">
+       <input type="hidden" name="eCart1_1_ID_Add" value="">
+       <input name="eCart1_Option[]" type="hidden" id="quantity" value="1" style="width:30px;float:left;">
+       <input class="productBadgeButtons productBadgeLeftBtn" type="submit" value="Add to Basket" name="eCart1_1_ATC">
+---------- <Element div at 0x10fae0350>
+ <div class="browse-product" id="veniard-salmon-low-water-double-hooks">
+   <div class="wraptocenter">
+     <a href="http://www.tedcarter.co.uk/veniard/veniard-salmon-low-water-double-hooks">
+       <img src="./Veniard Esmond Dury Trebles Nickel Plated   Ted Carter Fishing Tackle_files/med_veniard-salmon-low-water-double-hooks.jpg" alt="Veniard Salmon Low Water Double Hooks" border="0" title="Veniard Salmon Low Water Double Hooks" style="max-height:135px;max-width:135px" class="constrain-width">
+   <div class="desc-container">
+     <div class="manuf">
+       <a href="http://www.tedcarter.co.uk/veniard/veniard-salmon-low-water-double-hooks"> Veniard
+     <div class="desc">
+       <a href="http://www.tedcarter.co.uk/veniard/veniard-salmon-low-water-double-hooks"> Veniard Salmon Low Water Double Hooks
+     <div class="price">
+       <a href="http://www.tedcarter.co.uk/veniard/veniard-salmon-low-water-double-hooks">
+         <div class="browse-price"> From £6.99
+     <a href="http://www.tedcarter.co.uk/veniard/veniard-salmon-low-water-double-hooks">
+       <input class="productBadgeButtons productBadgeRightBtn" type="submit" value="View" name="eCart1_1_ATC" onclick="window.location='http://www.tedcarter.co.uk/veniard/veniard-salmon-low-water-double-hooks'">
+       <input class="productBadgeButtons productBadgeLeftBtn productBadgeExtend" type="submit" value="Options" name="eCart1_1_ATC" onclick="window.location='http://www.tedcarter.co.uk/veniard/veniard-salmon-low-water-double-hooks'">
+---------- <Element div at 0x10fae0fb0>
+ <div class="browse-product" id="veniard-mirror-flash">
+   <div class="wraptocenter">
+     <a href="http://www.tedcarter.co.uk/veniard/veniard-mirror-flash">
+       <img src="./Veniard Esmond Dury Trebles Nickel Plated   Ted Carter Fishing Tackle_files/med_veniard-mirror-flash.jpg" alt="Veniard Mirror Flash" border="0" title="Veniard Mirror Flash" style="max-height:135px;max-width:135px" class="constrain-width">
+   <div class="desc-container">
+     <div class="manuf">
+       <a href="http://www.tedcarter.co.uk/veniard/veniard-mirror-flash"> Veniard
+     <div class="desc">
+       <a href="http://www.tedcarter.co.uk/veniard/veniard-mirror-flash"> Veniard Mirror Flash
+     <div class="price">
+       <a href="http://www.tedcarter.co.uk/veniard/veniard-mirror-flash">
+         <div class="browse-price"> From £3.75
+     <a href="http://www.tedcarter.co.uk/veniard/veniard-mirror-flash">
+       <input class="productBadgeButtons productBadgeRightBtn" type="submit" value="View" name="eCart1_1_ATC" onclick="window.location='http://www.tedcarter.co.uk/veniard/veniard-mirror-flash'">
+       <input class="productBadgeButtons productBadgeLeftBtn productBadgeExtend" type="submit" value="Options" name="eCart1_1_ATC" onclick="window.location='http://www.tedcarter.co.uk/veniard/veniard-mirror-flash'">
+
