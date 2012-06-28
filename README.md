@@ -9,4 +9,6 @@ Each detected sequence:
 3. everything started from maxtreeheight is unimportant
 4. similarity should be less than maxmismatch
 
-This is quick prototype. Worked. A lot of improvements may be here.
+This is quick prototype. Worked. Check examples. 
+
+Of course, a infinity improvements possible here.
