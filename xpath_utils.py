@@ -2,7 +2,10 @@
 from json import loads
 from pprint import pprint
 
-from scrapy.selector import XPathSelector, XmlXPathSelector, HtmlXPathSelector
+import lxml.html
+#from scrapy.selector import XPathSelector, XmlXPathSelector, HtmlXPathSelector
+
+from einfo import EInfo
 
 
 def create_xpath(path, root=None):
@@ -18,7 +21,7 @@ def create_xpath(path, root=None):
                 ret.append(tag)
         return ret
     
-    p = ("/" if root is None else "./")  + "/".join(toxp(path))        
+    p = ("/" if root is None else "./")  + "/".join(toxp(path))
     return p
 
 
@@ -58,13 +61,38 @@ def xpath_by(paths):
     return xpath
     #return verify_xpath(xpath, html, paths), xpath
 
-def verify_xpath(xpath, html, paths):
-    sel = HtmlXPathSelector(text=html)
-    r = sel.select(xpath)
+
+def verify_xpath(xpath, root, paths):
+    #sel = HtmlXPathSelector(text=html)
+    #r = sel.select(xpath)
+    assert isinstance(root, lxml.html.HtmlElement), type(root)
+    r = root.xpath(xpath)
+
     return "" if len(paths) == len(r) else "%s traversed structure VS %s matched by xpath" % (
                                                         len(paths), len(r))
     #assert len(paths) == len(r), "%s vs %s for %s" % (len(paths), len(r), xpath)
     #return xpath
+
+
+"""
+def best_xpath_from_xpaths(xpaths, html, paths):
+    for xpath in xpaths:
+        if not verify_xpath(xpath, html, paths):
+            return xpath
+    return None
+"""
+
+def xpath_for_es(es, root):
+    #pprint(es)
+    paths = map(lambda e: EInfo(e).parentpath_tuples(), es)
+    #pprint(paths)
+    xpath = xpath_by(paths)
+    errstring = verify_xpath(xpath, root, paths)
+    return xpath, errstring
+
+
+def xpaths_for_es(es, text):
+    pass
 
 
 def main():
@@ -76,7 +104,7 @@ def main():
     paths = paths[0]
     xpath = xpath_by(paths)
     print xpath
-    print verify_xpath(xpath, html, paths)
+    #print verify_xpath(xpath, html, paths)
 
     
 if __name__ == "__main__":

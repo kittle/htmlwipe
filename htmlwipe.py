@@ -8,18 +8,13 @@ from json import dumps
 from StringIO import StringIO
 
 import lxml.html
+from lxml import etree
 
-from array_utils import distance_between_sorted_arrays
-from tree_utils import traverse_wide, traverse_deep
+from einfo import EInfo
+from list_utils import distance_between_sorted_arrays
+from tree_utils import traverse_wide, print_tree
+from xpath_utils import xpath_for_es
 
-from xpath_utils import xpath_by, verify_xpath
-
-
-def str_element(e):
-    attrib = " ".join(['%s="%s"' % (k,v) for k,v in e.attrib.items()])
-    return "<%s%s>%s%s" % (e.tag, " " + attrib if attrib else "",
-                             " " + e.label.strip() if e.label and e.label.strip() else "",
-                             " " + e.text.strip() if e.text and e.text .strip() else "" )
 
 
 def tree_hash(t, minlevel=0, maxlevel=None):
@@ -102,118 +97,62 @@ def traversal(root, level, min_elements=4,
     return ret
 
 
-def print_special(spec):
-    for level, e in spec:
-        print "  "*(level-1), e
-
-
-def print_tree(root):
-    print_special(traverse_deep(root, todo=str_element))
-
-
-def construct_parentpath_for_tree(e, separator=" -> "):
-    ei = EInfo(e)
-    return ei.parentpath_tuples()
-
-
-class EInfo():
-    
-    def __init__(self, e):
-        assert not isinstance(e, list)
-        self.e = e
-    
-    def __repr__(self):
-        return repr(self.e)
-    
-    def info(self):
-        self.urls = map(lambda x: (x, x.get("href")), self.e.findall(".//a"))
-        self.imgs = map(lambda x: (x, x.get("src")), self.e.findall(".//img"))
-        self.text = filter(lambda x: x[1], map(lambda x: (x, x.text_content()), self.e.findall(".//*")))
-
-    def find(self, s):
-        "very simple"
-        ret = []
-        for e in self.e.iterdescendants():
-            for v in e.values():
-                if s in v:
-                    ret.append(e)
-        return ret
-
-    def parentpath(self, root=None):
-        e = self.e
-        do = True
-        ret = []
-        while do:
-            ret.insert(0, e)
-            e = e.getparent()
-            if not e or e == root:
-                do = False
-        return ret
-
-    def parentpath_str(self, root=None, separator=" -> "):
-        ret = self.parentpath(root=root)
-        return separator.join(
-                map(lambda x: "%s(%s)" % (x.tag, x.attrib), ret))
-
-    def parentpath_tuples(self, root=None):
-        ret = self.parentpath(root=root)
-        return map(lambda x: (x.tag, x.items()), ret)
-
-
-    def create_xpath(self, root=None):
-        path = self.parentpath(root=root)
-
-        ret = []
-        for e in path:
-            if e.keys():
-                k,v = e.items()[0]
-                ret.append("{}[@{}='{}']".format(e.tag, k, v))
-            else:
-                ret.append(e.tag)
-    
-        return ("./" if root else "/") + "/".join(ret)
-
-
 def collect_info_by_es(es):
-    info = map(EInfo, es)
-    map(lambda x: x.info(), info)
-    return info
+    return map(lambda x: EInfo(x).info(), es)
 
 
-def xpath_for_es(es, text):
-    #pprint(es)
-    paths = map(lambda x: construct_parentpath_for_tree(x), es)
-    #pprint(paths)
-    xpath = xpath_by(paths)
-    errstring = verify_xpath(xpath, text, paths)
-    return xpath, errstring
-
-
-def print_ess(ess, text=None):
+def print_ess(ess, root=None):
     print "Traverse: detected %s structures:\n" % len(ess)
     if not ess: return
     pprint(ess)
     print "\nDetailed:"
     for es in ess:
         print "=" * 20
-        if text:
-            xpath, errstring = xpath_for_es(es, text)
-            print "NOT Suggested: %s." % errstring if errstring else "", "calculated XPATH: ", xpath
-        for e in es:
-            print "-" * 10, e
-            print_special(traverse_deep(e, todo=str_element))
+        if root:
+            xpath, errstring = xpath_for_es(es, root)
+            print "%s items." % len(es), "NOT Suggested: %s." % errstring if errstring else "", "calculated XPATH: ", xpath
+        print_es(es)
             #print construct_parentpath_for_tree(e)
         print
 
 
-def main(text):
+def print_es(es):
+    for e in es:
+        print "-" * 10, e
+        print etree.tounicode(e, method="html", pretty_print=True)
+        #print_tree(e)
+
+
+def item_info_from_es(es):
+    if not es:
+        return
+    
+    e = es[0]
+    i = EInfo(e)
+    i.info()
+    if i.urls and False:
+        c = EInfo(i.urls[0][0])
+        #print i.childpath(i.urls[0][0])
+        print c.search_for_xpath(e, 1, relroot=e)
+
+    #pprint(i.e.findall(".//*"))
+    _es =  i.e.xpath(u".//*[contains(text(), '$')] | .//*[contains(text(), '€')] | .//*[contains(text(), 'EUR')] | .//*[contains(text(), 'USD')] | .//*[contains(text(), 'GBP')]")
+    #print i.e.xpath(".//*[contains(text(), 'Filet')]")
+    print_es(_es)
+
+
+def main_html(text):
     html = lxml.html.parse(StringIO(text))
     root = html.getroot()
+    #root = lxml.html.document_fromstring(text)
 
     ess = traversal(root, 1, min_elements=4,
               mintreeheight=3, maxtreeheight=4, maxmismatch=0.28)
+    print_ess(ess, root=root)
 
-    print_ess(ess, text=text)
+    print "ITEM INFO"
+    for es in ess:
+        item_info_from_es(es)
 
 
 def main_filename(filename):
@@ -221,58 +160,21 @@ def main_filename(filename):
     return main(text)
 
 
-def test():
-    """
-    es = root.xpath("//div[@class='products']/ul/li")
-    for e in es:
-        print compare_trees(es[0], e)
-    return
-    """
-    """
-    es = root.xpath("//div[@class='products']/ul/li")
-    e1 = tree_hash(es[0])
-    e2 = tree_hash(es[1])
-    e1 = sorted(e1)
-    e2 = sorted(e2)
-    print e1
-    print e2
-    print distance_between_sorted_arrays(e1, e2)
-    return
-    for e in es:
-        pprint(traverse_wide(e, maxlevel=3, todo=lambda x: x.tag))
-        #pprint(traverse_wide(e, maxlevel=3, todo=print_tree))
-    return
-
-    print compare_trees(p[0], p[1])
-    print compare_trees(p[2], p[3])
-    return
-    
-    p = root.xpath("//div[@class='products']")
-    es = traversal(p[0], 1)
-    print_tree(p[0])
-    return
-    """
-    for es in ess:
-        info = collect_info_by_es(es)
-        #pprint(info)
-        
-        r = map(lambda x: x.find("html"), info)
-        #print EInfo(r[0][0]).parentpath_str(root=ess[0][0])
-        print EInfo(r[0][0]).create_xpath(root=ess[0][0])
-        #pprint()
-        return
-
-    return
-
-    print dumps(map(
-               lambda es: map(lambda x: construct_parentpath_for_tree(x), es),
-               ess))
+def main():
+    #FILE = "htmls/frankonia.fr.html"
+    FILE = "examples/naturabuy.fr.html"
+    #FILE = "htmls/cariboom.com.html"
+    #FILE = "htmls/Veniard Esmond Dury Trebles Nickel Plated   Ted Carter Fishing Tackle.html"
+    text = open(FILE).read()
+    main_html(text)
 
 
 if __name__ == "__main__":
-    #FILE = "htmls/frankonia.fr.html"
-    FILE = "htmls/naturabuy.fr.html"
-    #FILE = "htmls/cariboom.com.html"
-    #FILE = "htmls/Veniard Esmond Dury Trebles Nickel Plated   Ted Carter Fishing Tackle.html"
-
-    main_filename(sys.argv[1])
+    if len(sys.argv) > 1:
+        if sys.argv[1] == '-':
+            text = sys.stdin.read()
+            main_html(text)
+        else:
+            main_filename(sys.argv[1])
+    else:
+        main()

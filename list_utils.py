@@ -1,3 +1,4 @@
+import itertools
 
 def distance_between_sorted_arrays(a1, a2):
     """
@@ -61,6 +62,7 @@ def distance_between_sorted_arrays(a1, a2):
         elif f2[0]:
             penalti[0] += len(tuple(i2)) + 1
     return penalti[0]
+
 
 
 def test():

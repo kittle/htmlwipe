@@ -37,3 +37,19 @@ def traverse_wide(root, todo=lambda x: x, initlevel=1, maxlevel=None,
     else:
         return None
     
+
+def str_element(e):
+    attrib = " ".join(['%s="%s"' % (k,v) for k,v in e.attrib.items()])
+    return "<%s%s>%s%s" % (e.tag, " " + attrib if attrib else "",
+                             " " + e.label.strip() if e.label and e.label.strip() else "",
+                             " " + e.text.strip() if e.text and e.text .strip() else "" )
+
+
+def print_special(spec):
+    for level, e in spec:
+        print "  "*(level-1), e
+
+
+def print_tree(root):
+    print_special(traverse_deep(root, todo=str_element))
+    
