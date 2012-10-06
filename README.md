@@ -1,6 +1,6 @@
-Detect a sequences of similar structures in html and contruct xpath for them.
+###Detect a sequences of similar structures in html and automatically construct xpath for them.
 
-Ex: products, forms, polls on a webpage.
+Useful to detect products, forms, polls etc on webpages.
 
 Each detected sequence:
 
@@ -9,6 +9,10 @@ Each detected sequence:
 3. everything started from maxtreeheight is unimportant
 4. similarity should be less than maxmismatch
 
-This is quick prototype. Works. Check examples. 
+Motto: just checking some ideas.
 
-Of course, a infinity improvements possible here.
+You will not find good code here. Because this is quick prototype now. 
+
+Check "examples" dir for results.
+
+Cheers.

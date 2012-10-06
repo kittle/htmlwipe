@@ -61,7 +61,7 @@ def grouping_sorted_paths_by_xpath(paths):
     return p
 
 
-def grouping_list_by_levenstein(urls, key=lambda x:x):
+def grouping_list_by_levenstein(urls, key=lambda x: x):
     ret = []
     prev = None
     urls = sorted(urls, key=key)
@@ -92,24 +92,18 @@ def is_grouped_hrefs_has_urls(grouped_hrefs, urls):
     return True
 
 
+def e_with_url_from_root(root, xpath="//a"):
+    if xpath != "//a":
+        raise RuntimeError("old code")
+    return root.xpath("//a")
+
+
 def grouped_hrefs_from_page_sets(root, xpath="//a"):
 
-    es = root.xpath(xpath)
+    #es = root.xpath(xpath)
+    es = e_with_url_from_root(root, xpath=xpath)
+    
     paths = [EInfo(e).parentpath() for e in es]
-
-    #pprint(paths)
-
-    """    
-    t = tree()
-    # populate tree
-    for path in paths:
-        z = t[path[0]]
-        for e in path[1:]:
-            z = z[e]
-    #pprint(dicts(t, v=lambda x:x.tag))
-    print dicts(t, v=lambda x:x.tag)
-    #pprint(dicts(t, v=lambda x:x.tag))
-    """
 
     # grouping_by_pathlen
     paths_by_length = sorted(paths, key=len)
@@ -138,14 +132,10 @@ def grouped_hrefs_from_page(root, xpath="//a", max_urls_out=10):
     
     return ret, href_sets
 
-    #p = map_list_list_list(lambda x: x.tag, p)
-    pprint(ret)
-    return
-
 
 def e_by_url_from_page(root, url):
-    ret = root.xpath("//a[@href='%s']" % url)
-    return ret
+    #return root.xpath("//a[@href='%s']" % url)
+    return filter(lambda a: cmp_urls(a.get("href"), url), root.xpath("//a"))
 
 
 def looking_for_next_page(root, href_sets):
@@ -158,8 +148,8 @@ def looking_for_next_page(root, href_sets):
                                     lambda y: [y[-1], y[-1].get("href")], x)
             , href_sets)
     r = map(
-              lambda x: grouping_list_by_levenstein(x
-                                                    ,key=lambda y: y[1]
+              lambda x: grouping_list_by_levenstein(x,
+                                                    key=lambda y: y[1]
                                 )
               , r)
     r = filter(None, r)

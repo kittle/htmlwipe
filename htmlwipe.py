@@ -116,12 +116,24 @@ def print_ess(ess, root=None):
         print
 
 
-def print_es(es):
-    for e in es:
-        print "-" * 10, e
-        print etree.tounicode(e, method="html", pretty_print=True)
-        #print_tree(e)
+def pformat_ess(ess, root=None):
+    pass
 
+    
+
+def pformat_es(es):
+    ret = ""
+    for e in es:
+        ret += "-" * 10
+        ret += "%s\n" % e
+        ret += etree.tounicode(e, method="html", pretty_print=True)
+        ret += "\n"
+    return ret
+
+
+def print_es(es):
+    print pformat_es(es)
+    
 
 def item_info_from_es(es):
     if not es:

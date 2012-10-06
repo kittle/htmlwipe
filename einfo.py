@@ -72,7 +72,7 @@ class EInfo():
     def xpath_gen_ununiq(self, root=None, related=False):
         if root:
             yield self.get_exact_xpath(root)
-        all_attribs = ['id', 'class', 'title', 'text()']
+        all_attribs = ['id', 'class', 'title', 'text()'] # 'valign'
         for attribs_n in range(len(all_attribs), 0, -1):
             for without_last_n_attribs in range(2):
                 for attribs in list(itertools.combinations(all_attribs, attribs_n)):
@@ -150,15 +150,19 @@ class EInfo():
             for i in range(len(ret) - without_last_n_attribs, len(ret)):
                 ret[i] = (ret[i][0], [])
         #ret.append("{}[@{}='{}']".format(e.tag, k, v))    
+        #try:
         ret = map(lambda x: x[0] if not x[1] else "{}[{}]".format(x[0], 
-                                    ' and '.join(map(lambda y: "@{}='{}'".format(y[0], y[1]), x[1]))
-                                                              ) , ret)
+                                ' and '.join(map(lambda y: "@{}='{}'".format(y[0], y[1]), x[1]))
+                                                          ), ret)
+        #except UnicodeEncodeError:
+        #    print 
+
         xpath = ("./" if related else "/") + "/".join(ret)
         if debug:
             print "xpath:", xpath
         return xpath
-    
-    
+
+
 def test():
     #FILE = "htmls/frankonia.fr.html"
     FILE = "examples/naturabuy.fr.html"
@@ -169,7 +173,7 @@ def test():
     e = root.xpath("//a")[0]
     #print EInfo(e).create_xpath()
     pprint(list(EInfo(e).xpath_gen()))
-    
+
 if __name__ == "__main__":
     test()
     

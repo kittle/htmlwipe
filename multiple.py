@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from pprint import pprint, pformat
 
 from utils import wget_root, map_list_list
@@ -12,20 +14,29 @@ class Site(object):
     # in
     name = None
     categories_url = None
+    products_first_second_third = None
     # out
     next_products_xpath = None
     #
     debug = False
     
+    def __init__(self, name, debug=False):
+        self.name = name
+        self.debug = debug
+    
     def process(self):
         self.xpath_for_categories()
         self.xpath_for_products()
-        self.xpath_for_products_next()
+        if self.products_first_second_third:
+            self.xpath_for_products_next()
         
     def report(self):
         print "="*30
         print "name: %s" % self.name
         print "categories_xpath: %s" % pformat(self.categories_xpath)
+        #if self.products_ess:
+        #    print_ess(self.products_ess, root=root)
+
         print "next_products_xpath: %s" % self.next_products_xpath
         print
         
@@ -49,7 +60,7 @@ class Site(object):
         # TODO: grouping by level
         # TODO: finding xpath
         self.products_ess = ess
-        #print_ess(ess, root=root)
+        print_ess(ess, root=root)
 
     def xpath_for_products_next(self):
         
@@ -98,11 +109,6 @@ class Site(object):
 def main_multiple():
     """
     
-    "ericsangling.co.uk"
-    "summerlands-tackle.co.uk"
-    "climaxtackle.com"
-    "tackleuk.co.uk"
-    "anglingdirect.co.uk"
     "poingdestres.co.uk"
     "bhphotovideo.com"
     "jbhifi.com.au"
@@ -113,12 +119,43 @@ def main_multiple():
     "camskill.co.uk"
     "4x4tyres.co.uk"
     "tyredrive.co.uk"
+    
+    s = Site()
+    s.name = ""
+    s.categories_url = ""
+    s.products = ["",
+                    ""]
+    s.products_first_second_third = ["",
+                             "",
+                             ""]
+    sites.append(s)
     """
 
     sites = []
     
-    s = Site()
-    s.name = "bristolangling.com"
+    # and 
+    s = Site("euroffice.co.uk")
+    s.categories_url = "http://www.euroffice.co.uk/Sitemap.aspx"
+    s.products = ["http://www.euroffice.co.uk/g/n0l/Office-Supplies/Desktop-Stationery/Clips/",
+                  "http://www.euroffice.co.uk/g/p1l/Office-Supplies/Filing-and-Archive/Binders/"]
+    s.products_first_second_third = ["http://www.euroffice.co.uk/g/n0l/Office-Supplies/Desktop-Stationery/Clips/",
+                           "http://www.euroffice.co.uk/g/n0l/Clips/?page=2&sort=BestSelling",
+                           "http://www.euroffice.co.uk/g/n0l/Clips/?page=3&sort=BestSelling",]
+    sites.append(s)
+
+    s = Site("huntoffice.co.uk", debug=False)
+    s.categories_url = "http://huntoffice.co.uk/"
+    s.subcategories = ["http://huntoffice.co.uk/atlas-dictionary-photo-album.html",
+                       "http://huntoffice.co.uk/mailroom-furniture.html",
+                       "http://huntoffice.co.uk/folders-filing.html"]
+    s.products = ["http://huntoffice.co.uk/card.html",
+                  "http://www.euroffice.co.uk/g/p1l/Office-Supplies/Filing-and-Archive/Binders/"]
+    s.products_first_second_third = ["http://huntoffice.co.uk/multifunctional-paper.html",
+                           "http://huntoffice.co.uk/multifunctional-paper-p2.html",
+                           "http://huntoffice.co.uk/multifunctional-paper-p3.html",]
+    sites.append(s)
+
+    s = Site("bristolangling.com")
     s.categories_url = "http://www.bristolangling.com"
     s.products = ["http://www.bristolangling.com/tackle.html", "http://www.bristolangling.com/bait.html"]
     s.products_first_second_third = ["http://www.bristolangling.com/tackle.html",
@@ -135,8 +172,7 @@ def main_multiple():
     #sites.append(s)
     """
     
-    s = Site()
-    s.name = "fostersofbirmingham.co.uk"
+    s = Site("fostersofbirmingham.co.uk")
     s.categories_url = "http://www.fostersofbirmingham.co.uk/sitemap"
     s.products = ["http://www.fostersofbirmingham.co.uk/carp-and-barbel",
                     "http://www.fostersofbirmingham.co.uk/match-and-coarse"]
@@ -148,8 +184,7 @@ def main_multiple():
     #s.report()
     
 
-    s = Site()
-    s.name = "tedcarter.co.uk"
+    s = Site("tedcarter.co.uk")
     s.categories_url = "http://www.tedcarter.co.uk/"
     s.products = ["http://www.tedcarter.co.uk/browse/match-coarse/accessories/",
                     "http://www.tedcarter.co.uk/browse/fly-game/accessories/"]
@@ -160,6 +195,50 @@ def main_multiple():
     #s.process()
     #s.report()
 
+    
+    s = Site("ericsangling.co.uk")
+    s.categories_url = "http://www.ericsangling.co.uk/prods/index.html"
+    s.products = ["http://www.ericsangling.co.uk/prods/pc96.html",
+                    "http://www.ericsangling.co.uk/prods/pc110.html"]
+    sites.append(s)
+
+    """
+    s = Site("summerlands-tackle.co.uk")
+    s.categories_url = ""
+    s.products = ["http://www.summerlands-tackle.co.uk/section.php/6431/1/abu-garcia-reels",
+                    "http://www.summerlands-tackle.co.uk/section.php/6417/1/braid-and-mono-line"]
+    s.products_first_second_third = ["",
+                             "",
+                             ""]
+    sites.append(s)
+    """
+
+    """
+    s = Site("climaxtackle.com")
+    s.sitemap_url = "http://www.climaxtackle.com/sitemap.xml"
+    s.products = ["",
+                    ""]
+    s.products_first_second_third = ["",
+                             "",
+                             ""]
+    sites.append(s)
+    """
+
+    s = Site("tackleuk.co.uk")
+    s.categories_url = "https://www.tackleuk.co.uk/#index/"
+    s.products = ["https://www.tackleuk.co.uk/#index/cPath=26",
+                    "https://www.tackleuk.co.uk/#index/cPath=104"]
+    sites.append(s)
+
+    s = Site("anglingdirect.co.uk")
+    s.categories_url = "https://www.tackleuk.co.uk/#index/"
+    s.products = ["http://www.anglingdirect.co.uk/store/carp/chairs",
+                    "http://www.anglingdirect.co.uk/store/predator/terminal-tackle"]
+    s.products_first_second_third = ["http://www.anglingdirect.co.uk/store/predator/terminal-tackle",
+                             "http://www.anglingdirect.co.uk/store/predator/terminal-tackle?p=2",
+                             "http://www.anglingdirect.co.uk/store/predator/terminal-tackle?p=3"]
+    
+    sites = sites[0:1]
     map(lambda s: s.process(), sites)
     map(lambda s: s.report(), sites)
 
